@@ -51,7 +51,7 @@ mysql.connector.connect(
 )
 ```
 ### Usage
-Start the Server and Start the Command Interface
+Start the Server and Start the Command Interface  
 Run main.py to start the server. The server will handle client connections:
 
 ```bash
