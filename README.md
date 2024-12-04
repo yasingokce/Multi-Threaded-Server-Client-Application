@@ -52,10 +52,10 @@ mysql.connector.connect(
 ```
 ### Usage
 Start the Server and Start the Command Interface
-Run pyserver.py to start the server. The server will handle client connections:
+Run main.py to start the server. The server will handle client connections:
 
 ```bash
-python pyserver.py
+python main.py
 ```
 
 ### Start the Client
