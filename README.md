@@ -39,7 +39,7 @@ pip install mysql-connector-python
 ```sql
 
 CREATE DATABASE personnel_db;
-Configure the MySQL username and password in server.py and server_command.py:
+Configure the MySQL username and password in pyserver.py:
 ```
 ```python
 
