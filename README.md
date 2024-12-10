@@ -65,7 +65,20 @@ Run pyclient.py to start a client instance. You can run multiple clients to conn
 python pyclient.py
 ```
 
+### Project Structure
+```
+├── main.py:    # is the file to start the server side.
+├── pyserver.py:    # Server application. Manages communication with clients and database operations.
+├── pyclient.py:    #Client application. Processes commands from the server and saves and deletes data in the SQLite database.
+├── messageslist.py:   # Creates a table in the MySql database for messages and adds data to it to be sent to clients.
+├── personel.py:   # Creates a table in the MySql database for the personnel and adds data to it to be sent to the clients.
+├── clientslist.py:    # Creates a table in the MySql database to keep the created clients up to date.
+├── hlib.py:   # Contains auxiliary functions such as logging.
+├── .env:  # Stores environment variables.
+├── logdataClient.txt: # Logs after Client startup.
+├── logdataServer.txt: # Logs after Server startup.
+├── README.md:       # Documentation and usage guide for the project.
+```
 
 
-Multi-Threaded-Server-Client-Application
 
